@@ -228,6 +228,9 @@ footer a {
   main section.picture div.purpleRect {
     display: none;
   }
+  main section.cards {
+    margin-bottom: 10vh;
+  }
   main section.cards div.card img {
     margin: 2rem 0rem;
     width: 70%;
