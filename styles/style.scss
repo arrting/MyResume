@@ -39,8 +39,10 @@ header {
 }
 
 main {
+    //border: 3px solid red;
     display: flex;
     flex-wrap: wrap;
+    height: 100%;
     section.left{
         flex: 1 1 500px;
         padding: 2rem;
@@ -162,6 +164,7 @@ main {
     }
     section.cards{
         width: 100%;
+        //border: 3px solid blue;
         display: flex;
         height: 70vh;
         flex-wrap: wrap;
@@ -246,13 +249,19 @@ footer {
             }
         }
         section.cards{
-            margin-bottom:20vh ;
+            //margin-bottom:20vh ;
             div.card{
                 img{
-                    margin: 2rem 0rem;
+                    margin: 0rem 0rem;
                     width: 70%;
                 }
+                padding-bottom: 1rem;
             }
+             
+        } 
+        section#todo{
+            height: 35vh;
+            //border: 3px solid black;
         } 
     }
     footer{

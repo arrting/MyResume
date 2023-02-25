@@ -39,6 +39,7 @@ header nav ul li a {
 main {
   display: flex;
   flex-wrap: wrap;
+  height: 100%;
 }
 main section.left {
   flex: 1 1 500px;
@@ -228,12 +229,15 @@ footer a {
   main section.picture div.purpleRect {
     display: none;
   }
-  main section.cards {
-    margin-bottom: 20vh;
+  main section.cards div.card {
+    padding-bottom: 1rem;
   }
   main section.cards div.card img {
-    margin: 2rem 0rem;
+    margin: 0rem 0rem;
     width: 70%;
+  }
+  main section#todo {
+    height: 35vh;
   }
   footer a img {
     width: 15vw;
