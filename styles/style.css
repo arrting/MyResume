@@ -180,15 +180,22 @@ main section.cards div.card a {
   text-decoration: none;
   color: white;
   padding: 1rem 1.5rem;
+  margin: 0.25rem 0rem;
   border-radius: 10px;
   font-size: 1.25rem;
 }
 
 footer {
+  display: flex;
+  align-items: center;
   margin-top: 2rem;
 }
 footer a {
   padding: 1rem;
+}
+
+footer.porfile {
+  padding-top: 20rem;
 }
 
 .active {
@@ -206,6 +213,9 @@ footer a {
   header nav ul li {
     padding: 1rem 0rem;
     border-bottom: 3px solid gray;
+  }
+  main {
+    height: 160vh;
   }
   main section.right {
     display: flex;

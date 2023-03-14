@@ -189,6 +189,7 @@ main {
                 text-decoration: none;
                 color: white;
                 padding: 1rem 1.5rem;
+                margin: 0.25rem 0rem;
                 border-radius: 10px;
                 font-size: 1.25rem;
             }
@@ -197,10 +198,16 @@ main {
 }
 
 footer {
+    display: flex;
+    align-items: center;
     margin-top: 2rem;
     a {
         padding: 1rem;
     }
+    
+}
+footer.porfile{
+    padding-top: 20rem;
 }
 
 .active {
@@ -224,8 +231,8 @@ footer {
             }
         }
     }
-    
     main {
+        height: 160vh;
         section.right {
             display: flex;
             justify-content: center;
@@ -257,6 +264,7 @@ footer {
                 }
                 padding-bottom: 1rem;
             }
+            
              
         } 
         section#todo{
@@ -265,6 +273,8 @@ footer {
         } 
     }
     footer{
+        
+        //margin-top: 10rem;
         a{
             img{
                 width: 15vw;
